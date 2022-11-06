@@ -39,6 +39,7 @@ label {
 }
 .navbar-nav{
     background-color: white;
+    align-items: center;
 }
 
 li a:hover {
@@ -49,6 +50,80 @@ li a:hover {
     max-width: 20vw;
     max-height: 15vh;
 }
+
+.theme-background-color{
+    background-color: #e1d4c6;
+}
+
+.std-button{
+    display: inline-block;
+    -webkit-font-smoothing: subpixel-antialiased;
+    width: 20vw;
+    height:auto;
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+}
+
+.content-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+ 
+
+.bottom-layer{
+    position: absolute;
+    z-index: 0;
+}
+.top-layer{
+    position: relative;
+    z-index: 1;
+}
+
+.button-title{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: #222222;
+}
+
+.button-subtitle{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: white;
+}
+/* CSS for HOMEPAGE */
+
+.col-2{
+    /* -webkit-column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
+    -webkit-column-width: 50vw;
+    -moz-column-width: 50vw;
+         column-width: 50vw; */
+    box-sizing: border-box;
+}
+
+.profile-image{
+    width:49vw;
+    height: 75vh;
+    max-width: 50vw;
+    max-height: 100vh;
+    float:left;
+    
+}
+.food-pic{
+    width:49vw;
+    height: 75vh;
+    max-width: 50vw;
+    max-height: 100vh;
+    float: right;
+    
+}
+
+
+/* CSS for Footer */
 .footer-padding {
 	padding-bottom: 60px;
 }
